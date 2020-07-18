@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<article class="page">
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    So, at this point I figured out that there is a template through which we can put our content in **proper** way. We don't have to write title blah blah,
+    we can just add content in given template and bam.
+  </div>
+</article>
