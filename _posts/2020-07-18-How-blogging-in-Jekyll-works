@@ -1,13 +1,10 @@
 ---
 layout: default
+title: Sup bitch!
 ---
 
-<article class="page">
+Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
-  <h1>{{ page.title }}</h1>
+![_config.yml]({{ site.baseurl }}/images/config.png)
 
-  <div class="entry">
-    So, at this point I figured out that there is a template through which we can put our content in **proper** way. We don't have to write title blah blah,
-    we can just add content in given template and bam.
-  </div>
-</article>
+The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
