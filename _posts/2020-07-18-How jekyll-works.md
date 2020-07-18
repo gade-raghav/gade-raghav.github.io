@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Sup bitch!
 ---
 
 I realised it very hard way that we need to add **.md** extension and save file in-order for it to display.
