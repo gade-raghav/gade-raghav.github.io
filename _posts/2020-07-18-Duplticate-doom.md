@@ -18,12 +18,12 @@ Let's make mistakes and then learn.
 -  You will build a simple weather api which gives current  weather 
 -  Later we'll add frontend to it because terminal is intimidating for me. (Haha)
 
-###What you need
+### What you need
 - 15 mins to read but couple of days to apply what you read.
 - java basics 
 - patience 
 
-###Let's get started
+### Let's get started
 
 code's on [github](https://github.com/gade-raghav/Info-Weather) for reference
 
@@ -41,7 +41,7 @@ Generate it. Unzip it.
 - imports are necessary and tricky.
 
 
-####There are 2 major components
+#### There are 2 major components
 1. Current Weather
 2. Error handling  (trust me this is necessary)
 
@@ -182,7 +182,7 @@ curl request with parameter:
 curl "http://localhost:8080/weather/current?location={city name}"
 ```
 
-###Finally 
+### Finally 
 So this is how you can build a weather api. The explainations are not very clear , however they are just clear enough to get you going .
 ***Experiment with the code--> Things will go wrong --> Try fixing them to get what you want.*** == **Learning Curve** 
 
