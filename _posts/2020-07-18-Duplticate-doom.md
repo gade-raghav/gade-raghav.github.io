@@ -3,8 +3,7 @@ layout: default
 published: true
 ---
 
-<article class="page">
-<div class="entry">
+
 
 # Is it easy to write a Weather API ?
 This is the first api that I've written , and the following is basically me trying to make stuff simple for you so that you can break it and then learn.
@@ -191,5 +190,4 @@ curl "http://localhost:8080/weather/current?location={city name}"
 So this is how you can build a weather api. The explainations are not very clear , however they are just clear enough to get you going .
 
 ***Experiment with the code--> Things will go wrong --> Try fixing them to get what you want.*** == **Learning Curve**
-</div>
-</article>	
+
