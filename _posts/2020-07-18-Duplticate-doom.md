@@ -28,13 +28,9 @@ code's on [github](https://github.com/gade-raghav/Info-Weather) for reference
 We are going to use [openweathermap](https://home.openweathermap.org/). Sign in and get your api-id.
 
 Go to [Spring Initializr](https://start.spring.io/)
-
-Project-type: Maven
-
-Language: Java
-
-Dependecies : Spring Web
-
+- Project-type: Maven
+- Language: Java
+- Dependecies : Spring Web
 Generate it. Unzip it. 
 
 *I'd strictly advice you to use a code editor (VSCode works for me)*
