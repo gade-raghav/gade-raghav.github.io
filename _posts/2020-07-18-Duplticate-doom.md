@@ -31,6 +31,7 @@ Go to [Spring Initializr](https://start.spring.io/)
 - Project-type: Maven
 - Language: Java
 - Dependecies : Spring Web
+
 Generate it. Unzip it. 
 
 *I'd strictly advice you to use a code editor (VSCode works for me)*
