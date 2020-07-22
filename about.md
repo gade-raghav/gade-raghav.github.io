@@ -16,9 +16,5 @@ What I'm learning : docker,python,django,rest-api,reactjs
 
 
 ### Contact me
-You can reach me at:
 
-* [gaderaghav5@gmail.com](mailto:gaderaghav5@gmail.com)
-* [instagram](https://www.instagram.com/raghavgade/)
-* [linkedin](https://www.linkedin.com/in/raghav-gade/)
-* [github](https://github.com/gade-raghav)
+[gaderaghav5@gmail.com](mailto:gaderaghav5@gmail.com)
