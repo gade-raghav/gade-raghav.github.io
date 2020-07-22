@@ -104,7 +104,7 @@ This is how my pom.xml looks.
 </project>  
 ```
 
-These are the import in WeatherController.java
+These are the imports in WeatherController.java
 
 ```java
 import java.io.BufferedReader;
@@ -133,7 +133,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 What are you going to do?
 
-You're going to make a GET request to openweathermap-api which will return some data. You will use the required data and return it as a JSON response. Simple?
+You'll make a GET request to openweathermap-api which will return some data. You will use the required data from the output of openweathermap-api and return it as a JSON response. Simple?
 
 
 First set the environment variable **WEB_APPID**(api-key). It's always good to set api-key as an env variable and then use it in code. The code below is self-explanatory except for the fact that this is the main method and SpringApplication.run is supposed to be in this method.WeatheController is a class name.
