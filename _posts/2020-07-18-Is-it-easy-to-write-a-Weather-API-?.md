@@ -2,14 +2,14 @@
 layout: default
 published: true
 ---
-This is the first API that I've written, and the following is me trying to make stuff simple for you so that you can break it and then learn.
-The way I define stuff is just to make you comfortable with it. If you find something complicated, [GOOGLE IT](www.google.com) or you can always reach me.
+This is the first API that I've written, and coming up next is me attempting to make stuff basic for you with the goal that you can break it and then learn.
+The manner in which I characterize stuff is simply to make you alright with it. In you find something confusing, [GOOGLE IT](www.google.com) or you can always reach me.
 Let's make mistakes and then learn.
 
-***My way is not the ~~right~~ way, but it works.***
+***My way is not the ~~right~~ way, yet it works.***
 
 ### What you will build
--  You will build a simple weather API which gives current  weather 
+-  You will build a simple weather API which gives current weather 
 -  Later we'll add frontend to it because the terminal is intimidating for me. (Haha)
 
 ### What you need
@@ -21,7 +21,7 @@ Let's make mistakes and then learn.
 
 code's on [github](https://github.com/gade-raghav/Info-Weather) for reference
 
-We are going to use [openweathermap](https://home.openweathermap.org/). Sign in and get your api-id.
+We are going to use [openweathermap](https://home.openweathermap.org/). Sign up and get your api-id.
 
 Go to [Spring Initializr](https://start.spring.io/)
 - Project-type: Maven
@@ -33,8 +33,8 @@ Generate it. Unzip it.
 *I'd strictly advise you to use a code editor (VSCode works for me)*
 
 **Few things you'll understand the hard way:**
-- pom.xml file has the dependencies. If you need something new, search for the maven dependency online and add the required lines. 
-- imports are necessary and tricky.
+- pom.xml file has dependencies. If you need something new, search for that maven dependency online and include the necessary lines. 
+- imports are vital and tricky.
 
 #### There are 3 major components
 1. Current Weather
@@ -45,7 +45,7 @@ Generate it. Unzip it.
  cd  demo/src/main/java/com/example/restservice #asuming that demo is the directory name 
 ```
 
-First and foremost, you need the following imports (half of the trouble ends here). However, to make some imports you need to add dependencies(in pom.xml file).
+Most importantly, you need the following imports. However, to make some imports you need to add dependencies(in pom.xml file).
 
 This is how my pom.xml looks.
 ```xml
@@ -65,22 +65,25 @@ This is how my pom.xml looks.
     		<artifactId>mavenreactjsspringboot</artifactId>
     		<version>0.0.1-SNAPSHOT</version>
     		<name>mavenreactjsspringboot</name>
-	    <description>Demo project for Spring Boot</description>
+	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		
 		<dependency>
-    <groupId>org.json</groupId>
-    <artifactId>json</artifactId>
-    <version>20150729</version>
-</dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		    <version>20150729</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -92,15 +95,17 @@ This is how my pom.xml looks.
 				</exclusion>
 			</exclusions>
 		</dependency>
+		
 	</dependencies>
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-    </plugin>
-    </plugins>
-</build>
+
+	 <build>
+	    <plugins>
+		<plugin>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-maven-plugin</artifactId>
+	    </plugin>
+	</build>
+		 
 </project>  
 ```
 
@@ -150,11 +155,11 @@ public static void main(String[] args) {
 	}
 ```
 
-Get mapping for "get" request with 1 parameter that is location. Try-catch block makes it easy to find errors. Connect with URL,  read the response using buffer reader(many other ways to do the same thing ) and convert it to JSONObject and return it.
+Get mapping for "get" request with 1 parameter that is location. Try-catch block makes it easy to find errors. Connect with URL,  read the response using buffer reader(there are different approaches to do the same thing), convert it to JSONObject and return it.
 ```java
 //WeatherController.java
 
-@GetMapping("/weather/current")
+	@GetMapping("/weather/current")
 	@CrossOrigin(origins="http://localhost:3000")
         public Weather current(@RequestParam(value="location" )String location) {
                 try {
@@ -200,9 +205,9 @@ Get mapping for "get" request with 1 parameter that is location. Try-catch block
                                         );
                 }
 ```
-Openweathermap API returns a lot of data regarding weather which might not be used by you, therefore we'll parse it using JSONObject as we did in the above code.
+Openweathermap API returns a lot of data regarding weather which probably won't be useful, therefore we'll parse it using JSONObject as we did in the above code.
 
-**pro tip**: [this](http://jsonviewer.stack.hu/) helps a lot to get a perspective of your JSON response and then parsing becomes easy. Initially try to return the whole content from API and then try to parse it.JSONObject code is self-explanatory.
+**pro tip**: [jsonviewer](http://jsonviewer.stack.hu/) helps a lot to get a perspective of your JSON response and then parsing data is simple. Initially, try to return the whole content from API and then parse it. JSONObject code is self-explanatory.
 
 So, where did the weather object pop up from? You need to write some code for that. In my case it's Weather.java and depending upon my response I've written the following lines.
 ```java
@@ -224,25 +229,32 @@ public class Weather{
 		this.city=city;
 		this.temp=temp;
 	}
-		public String getMain() {
+
+
+	public String getMain() {
 				return main;
-		}
-		public String getDescription() {
+	}
+
+	public String getDescription() {
 				return description;
-		}
-		public String getCountry() {
+	}
+
+	public String getCountry() {
                 return country;
         }
+
         public  String getCity() {
                 return city;
         }
-		public float getTemp() {
-				return temp;
-		}
+	public float getTemp() {
+		return temp;
+	}
+	 
+
 }
 ```
 
-I am very bad at handling errors. Logging is ideal but this is what I came up with to notify me when there's something wrong.
+I am very bad at handling errors. Logging is ideal but this is what I came up with to notify me when something goes wrong.
 
 ```java
 //WeatherController.java
@@ -271,7 +283,9 @@ curl request with parameter:
 curl "http://localhost:8080/weather/current?location={city name}"
 ```
 
-### Finally 
-So this is how you can build a weather API. The explanations are not very clear, however, they are just clear enough to get you going.
+### Conclusion 
+So this is one way you can build a weather API. The explanations are not very clear, however, they are just clear enough to get you going.
 
 ***Experiment with the code--> Things will go wrong --> Try fixing them to get what you want*** == **Learning Curve**
+ 
+
