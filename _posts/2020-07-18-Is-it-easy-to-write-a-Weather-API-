@@ -7,12 +7,12 @@ The manner in which I characterize stuff is simply to make you comfortable with 
 Let's make mistakes and then learn.
 
 
-### What you'll build
+### What you will build
 -  You will build a simple weather API which gives current weather 
 -  Later we'll add frontend to it because the terminal is intimidating for me. (Haha)
 
-### What you'll need
-- 15 mins to read but a couple of days to apply what you'll read.
+### What you need
+- 15 mins to read but a couple of days to apply what you read.
 - java basics 
 - patience 
 
@@ -283,6 +283,6 @@ curl "http://localhost:8080/weather/current?location={city name}"
 ```
 
 ### Conclusion 
-So this is one way you can build a weather API. This is just an outline of what you can do. I hope this helps.
+So this is one way you can build a weather API. The explanations are not very clear, however, they are just clear enough to get you going.
 
-***Experiment with the code--> Things will go wrong --> Try fixing them to get what you want*** 
+***Experiment with the code--> Things will go wrong --> Try fixing them to get what you want*** == **Learning Curve**
