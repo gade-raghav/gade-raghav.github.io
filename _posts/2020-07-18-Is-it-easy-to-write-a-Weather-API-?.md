@@ -10,8 +10,8 @@ Let's make mistakes and then learn.
 -  You will build a simple weather API which gives current weather 
 -  Later we'll add frontend to it because the terminal is intimidating for me. (Haha)
 
-### What you need
-- 15 mins to read but a couple of days to apply what you read.
+### What you will need
+- 15 mins to read but a couple of days to apply what you've read.
 - java basics 
 - patience 
 
@@ -282,8 +282,8 @@ curl "http://localhost:8080/weather/current?location={city name}"
 ```
 
 ### Conclusion 
-So this is one way you can build a weather API. The explanations are not very clear, however, they are just clear enough to get you going.
+So this, is one way you can build a weather API. This is just an outline of what you can do. I hope this will help you
 
-***Experiment with the code--> Things will go wrong --> Try fixing them to get what you want*** == **Learning Curve**
+***Experiment with the code--> Things will go wrong --> Try fixing them to get what you want*** 
  
 
