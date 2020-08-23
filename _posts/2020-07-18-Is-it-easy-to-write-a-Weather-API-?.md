@@ -28,6 +28,13 @@ Go to [Spring Initializr](https://start.spring.io/)
 
 Generate it. Unzip it. 
 
+This would be your working directory. You will write code here.
+
+```bash
+ cd  demo/src/main/java/com/example/restservice #asuming that demo is the directory name 
+```
+
+
 *I'd strictly advise you to use a code editor (VSCode works for me)*
 
 **Few things you'll understand the hard way:**
@@ -39,9 +46,6 @@ Generate it. Unzip it.
 2. Returning JSON response
 3. Error handling 
 
-```bash
- cd  demo/src/main/java/com/example/restservice #asuming that demo is the directory name 
-```
 
 Most importantly, you need the following imports. However, to make some imports you need to add dependencies(in pom.xml file).
 
