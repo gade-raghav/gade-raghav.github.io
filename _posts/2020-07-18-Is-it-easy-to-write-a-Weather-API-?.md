@@ -3,7 +3,7 @@ layout: default
 published: true
 ---
 This is the first API that I've written, and coming up next is me attempting to make stuff basic for you with the goal that you can break it and then learn.
-The manner in which I characterize stuff is simply to make you comfortable with it. If you find something confusing, [GOOGLE IT](www.google.com) or you can always reach me.
+The manner in which I characterize stuff is simply to make you comfortable with it. If you find something confusing, you can always reach me.
 Let's make mistakes and then learn.
 
 ### What you will build
