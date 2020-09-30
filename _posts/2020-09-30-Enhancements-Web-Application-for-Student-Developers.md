@@ -20,7 +20,7 @@ One of the best approaches to assemble brand mindfulness, while giving important
 
 - This application has blogging feature that allows you to share your content.
 
-The rest of the blog is to make you familiar with the interface of the application. It is an *open source *  project and the code is on [github](https://github.com/gade-raghav/project-enhancements).
+The rest of the blog is to make you familiar with the interface of the application. It is an *open source*  project and the code is on [github](https://github.com/gade-raghav/project-enhancements).
 
 ### Hello:
 
