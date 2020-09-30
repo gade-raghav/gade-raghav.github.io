@@ -73,7 +73,7 @@ For convenience sake, there are two access modes for this application.
 ### Progress: 
 
 
-![Progress](/static/images/progress.png)
+![Progress](/images/progress.png)
 
 You can add progress comments which are of 3 categories:
 - Suggestion ( New Ideas for updates )
