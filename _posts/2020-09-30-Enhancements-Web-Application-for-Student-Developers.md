@@ -25,7 +25,7 @@ The rest of the blog is to make you familiar with the interface of the applicati
 ### Hello:
 
 
-![Welcome](/static/images/welcome.png ) 
+![Welcome](/images/welcome.png ) 
 
 
 
@@ -36,13 +36,13 @@ The rest of the blog is to make you familiar with the interface of the applicati
 ### Projects:
 
 
-![Projects](/static/images/projects.png)
+![Projects](/images/projects.png)
 
 All the projects that you want to keep track of are displayed here. You can add another project, make changes to the content of existing projects, change status of projects (working,queued or completed).
 Components allow you to mark languages,frameworks,databases or containerizations used.
 
 
-![Components](/static/images/components.png)
+![Components](/images/components.png)
 
 
 *********
@@ -50,7 +50,7 @@ Components allow you to mark languages,frameworks,databases or containerizations
 ### Enhancements:
 
 
-![Enhancements](/static/images/enhancements.png)
+![Enhancements](/images/enhancements.png)
 
 If you enable the ***Features*** option in your project, you can work with enhancemets. You can add all the new ideas you want to work with on your project.
 Once you've added your feature, you can track it's progress.
