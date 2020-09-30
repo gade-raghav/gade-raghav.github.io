@@ -5,6 +5,8 @@ published: true
 
 Enhancements is a Django application which has been developed to cater to the requirements of inquisitive student developers and assist them in making their task simpler. 
 
+View site: [Enhancements](https://enhancements.herokuapp.com)
+
 *It can be used for both project management and bug tracking*
 
 - You can keep all your ideas to enhance your project at a place and monitor their progress.
