@@ -11,7 +11,8 @@ Interested in IT and everything in its orbit, recently began to be fascinated by
 
 ## Work experience
 **Software Developer Intern** at [Inheaden](https://inheaden.io/)(April2020-June2020)
-at [Inheaden](https://inheaden.io/)
+
+
 - Deployed BigBlueButton ( open-source software web conferencing system for GNU/Linux servers ) using Hetzner Cloud Services
 - Java SpringBoot framework and React to write Weather-API
 - Utilizing Terraform script to deploy Kubernetes cluster
