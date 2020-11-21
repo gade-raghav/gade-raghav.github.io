@@ -22,7 +22,9 @@ Web Application Development
 
 Cloud Hosting
 
-AWS(RDS,S3)
+Kubernetes
+
+AWS, Google Cloud, Heroku, Hetzner
 
 Virtualization using Docker
 
