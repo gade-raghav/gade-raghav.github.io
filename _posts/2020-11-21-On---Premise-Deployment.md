@@ -5,7 +5,6 @@ published: true
 
 
 
-# On-Premise Deployment
 
 ## Project Description:
 
