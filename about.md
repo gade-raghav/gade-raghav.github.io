@@ -37,6 +37,8 @@ Technologies : Java, Linux, Hetzner Cloud, Rest-API
 ## Skills
 Web Application Development
 
+Terraform
+
 Cloud Hosting
 
 Kubernetes
