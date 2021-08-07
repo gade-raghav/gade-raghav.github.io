@@ -13,12 +13,13 @@ Interested in IT and everything in its orbit, recently began to be fascinated by
 
 **DevOps Intern** at [Inheaden](https://inheaden.io/)(June 2021- Present )
 
-
 Technologies: Terraform, Kubernetes, Docker, GitLab, Scaleway Cloud
 
 
-**DevOps Intern** at [Shunyeka Systems](https://shunyeka.com/)(Jan 2021- May 2021)
 
+
+
+**DevOps Intern** at [Shunyeka Systems](https://shunyeka.com/)(Jan 2021- May 2021)
 
 Technologies : AWS, Docker, Kubernetes, Python
 - Deployment of Serverless applications on AWS Cloud manually  and using AWS-Serverless application mode, AWS-Cloud Deployment Kit
@@ -26,8 +27,10 @@ Technologies : AWS, Docker, Kubernetes, Python
 - Deployed Deep Security Smart Check on Kubernetes with Jenkins pipeline integration
 
 
-**DevOps Intern** at [Inheaden](https://inheaden.io/)(April2020-June2020)
 
+
+
+**DevOps Intern** at [Inheaden](https://inheaden.io/)(April2020-June2020)
 
 Technologies : Java, Linux, Hetzner Cloud, Rest-API
 - Utilizing Hetzner Cloud Service to deploy BigBlueButton (Open-Source Software, web conferencing system for GNU/Linux Servers)
