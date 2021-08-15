@@ -15,10 +15,12 @@ This project aims to implement a solution that can optimize the run/test for CF 
 
 We will be using [EKS Control Plane template](https://github.com/aws-quickstart/quickstart-amazon-eks/blob/main/templates/amazon-eks-controlplane.template.yaml).
 
-`mkdir templates`
+```
+mkdir templates
 
-`touch amazon-eks-controlplane.template.yaml`
+touch amazon-eks-controlplane.template.yaml
 
+```
 (Copy pasted the contents of that template in this file.)
 
 **Note**: I've checked into the official documentation and made some changes in the template accordingly as changes were required in  Resource properties.
@@ -36,9 +38,12 @@ Pre-requisites:
 
 We will first set up a virtual environment for Python 3.9.
 
-`python3.9 -m venv env`
+```
+python3.9 -m venv env
 
-` source env/bin/activate `
+source env/bin/activate 
+
+```
 
 The first pip dependency we will be installing is **pre-commit**. It helps us setting up pre-requisites that have to be met before committing the code (We will be using git version control system.
 
