@@ -377,7 +377,8 @@ Let's test pre-commit
 
 Now we'll add and commit the changes.
 
-```git add .
+```
+git add .
 
 git commit -m "Added Unit Test"
 
