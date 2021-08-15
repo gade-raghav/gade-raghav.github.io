@@ -262,7 +262,7 @@ print(json.dumps(result, indent=4, default=str))
 We will first make sure that proper resources have been created.
 
 ```
-	# Check if proper resources have been created 
+    # Check if proper resources have been created 
     resource_list = ["KMSKey","EKS","CleanupLoadBalancers","CallerArn", "ClusterOIDCProvider",]
     for resource in resource_list:
         assert resource in result["Resources"]
@@ -272,7 +272,7 @@ We will first make sure that proper resources have been created.
 After we make sure proper resources are created, we will check each one of the resources by mapping the parameters and checking the conditions that were passed.
 
 ```
- 	# Test KMS Policy
+    # Test KMS Policy
     KMSKey_Policy = result["Resources"]['KMSKey']['Properties']['KeyPolicy']
     statement = KMSKey_Policy['Statement'][0]
     assert template.AccountId in statement['Principal']['AWS']
