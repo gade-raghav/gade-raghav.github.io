@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 published: true
 ---
-Computer & Communications undergrad studying at Manupal University Jaipur.
-I like to build applications.Full stack web developer. I’ve worked with django-framework, spring-boot framework, React, Docker, Python and C.
+Computer & Communications graduate from Manupal University Jaipur.
+I like to build applications.Full stack web developer. I’ve worked with django-framework, spring-boot framework, Docker, Python and C.
 I learn by breaking code wherever I need to figure out why things work the way they do.
-Interested in IT and everything in its orbit, recently began to be fascinated by virtualization technology.
+Interested in IT and everything in its orbit, recently began to be fascinated by virtualization technology and Web3 .
 
 ## Work experience
 
