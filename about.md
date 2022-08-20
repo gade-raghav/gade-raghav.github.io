@@ -29,12 +29,22 @@ and equivalence checking algorithms on IPs.
 
 
 
-**DevOps Intern** at [Inheaden](https://inheaden.io/)(June 2021- August 2021 )
+**DevOps Intern** at [Inheaden](https://inheaden.io/)
+
+(June 2021- August 2021 )
 
 Technologies: Terraform, Kubernetes, Docker, GitLab, Scaleway Cloud
 - Implementing OpenlD System in Kubernetes clusters.
 - Setting up a Kubernetes Controller for VPC/Private Network on Kubernetes cluster.
 - Configuring Metricbeats to collect metrics from BBB exporter.
+
+
+(April2020-June2020)
+
+Technologies : Java, Linux, Hetzner Cloud, Rest-API
+- Utilizing Hetzner Cloud Service to deploy BigBlueButton (Open-Source Software, web conferencing system for GNU/Linux Servers)
+- Java SpringBoot framework and React to write Weather-API
+- Deployed Kubernetes cluster using Terraform script on Scaleway
 
 
 
@@ -49,14 +59,6 @@ Technologies : AWS, Docker, Kubernetes, Python
 
 
 
-
-
-**DevOps Intern** at [Inheaden](https://inheaden.io/)(April2020-June2020)
-
-Technologies : Java, Linux, Hetzner Cloud, Rest-API
-- Utilizing Hetzner Cloud Service to deploy BigBlueButton (Open-Source Software, web conferencing system for GNU/Linux Servers)
-- Java SpringBoot framework and React to write Weather-API
-- Deployed Kubernetes cluster using Terraform script on Scaleway
 
 ## Skills
 Web Application Development
