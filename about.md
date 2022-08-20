@@ -11,9 +11,30 @@ Interested in IT and everything in its orbit, recently began to be fascinated by
 
 ## Work experience
 
-**DevOps Intern** at [Inheaden](https://inheaden.io/)(June 2021- Present )
+**Formal Verification Engineer** at [Intel](https://www.intel.in/content/www/in/en/homepage.html)(July 2022- Present* )
+- Verification of the microarchitecture using Formal Verification tools and technologies based on model checking
+and equivalence checking algorithms on IPs.
+
+
+
+
+
+**Cloud Quality and Reliability Intern** at [Zscaler](https://www.zscaler.com/)(Jan 2022- July 2022 )
+
+- Performing QA validations of HTTP2 and File Type Policies Feature.
+- Responsible for the cross-functional, regression testing and system testing of the Zscaler Security Features
+
+
+
+
+
+
+**DevOps Intern** at [Inheaden](https://inheaden.io/)(June 2021- August 2021 )
 
 Technologies: Terraform, Kubernetes, Docker, GitLab, Scaleway Cloud
+- Implementing OpenlD System in Kubernetes clusters.
+- Setting up a Kubernetes Controller for VPC/Private Network on Kubernetes cluster.
+- Configuring Metricbeats to collect metrics from BBB exporter.
 
 
 
